@@ -8,6 +8,7 @@
     When el usuario ingresa su correo electrónico "usuario@ejemplo.com"
     And el usuario ingresa su contraseña "contraseña123"
     And hace clic en el botón "Ingresar"
+    And el usuario deja el campo de contraseña en blanco
     Then el usuario debería ver la página principal de su cuenta con el mensaje "¡Bienvenido, usuario!"
 
   # Escenario de error con credenciales incorrectas
